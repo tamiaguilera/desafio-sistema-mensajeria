@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    margin: 0;
+}
+
+.divider{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+}
+
+.divider-aside{
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: darkgray;
+}
+
+.contacto-activo{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    
+}
+.contacto-activo .contacto-nombre{
+    width: 100%;
+}
+.contacto-activo p{
+    font-size: 12px;
+}
+
+aside{
+    background-color: rgb(225, 215, 215);
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 280px;
+}
+.containerchat{
+    display: flex;
+    background-color: gainsboro;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 calc(100% - 280px);
+}
+.containerchat img{
+    width: 15rem;
+    
+}
+.contacto-activo img{
+    height: 2rem;
+    border-radius: 1rem;
+}
+.contacto-activo h4{
+    margin: 0;
+}
+.contacto-activo p{
+    margin: 0;
+}
+
+.boton{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
