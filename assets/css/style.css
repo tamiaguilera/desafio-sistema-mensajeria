@@ -1,6 +1,15 @@
 body{
+    font-family: 'Roboto', sans-serif;
     display: flex;
     margin: 0;
+}
+
+h4, p{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    
 }
 
 .divider{
@@ -12,7 +21,7 @@ body{
 .divider-aside{
     border-right-width: 1px;
     border-right-style: solid;
-    border-right-color: darkgray;
+    border-right-color: rgb(169, 169, 169);
 }
 
 .contacto-activo{
@@ -32,29 +41,66 @@ body{
     font-size: 12px;
 }
 
+.boton{
+    padding: 1rem;
+}
+.boton button{
+    border: none;
+    background-color: #A491D2;
+    color: white;
+    padding: 1rem 3rem;
+}
+
 aside{
-    background-color: rgb(225, 215, 215);
+    background-color: white;
     display: flex;
     flex-direction: column;
     flex: 1 0 280px;
 }
 .containerchat{
     display: flex;
-    background-color: gainsboro;
+    background-color: #ffffff;
     flex-direction: column;
     align-items: center;
     flex: 1 0 calc(100% - 280px);
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
 }
 .containerchat img{
-    width: 15rem;
-    
+    width: 100%;
+    max-width: 250px;
+    border-radius: 1rem;
+}
+.containerchat p {
+    max-width: 400px;
+    line-height: 1.5;
+}
+.containerchat h1 {
+    font-size: 2.5rem;
+    margin: 6px 0;
 }
 .contacto-activo img{
     height: 2rem;
     border-radius: 1rem;
 }
-.contacto-activo h4{
-    margin: 0;
+.contacto2 img{
+    height: 3rem;
+    border-radius: 2rem;
+}
+.contacto2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    gap: 1rem;
+}
+.contacto2 p{
+    font-size: 1rem;
+}
+.contacto2 .detalle-contacto{
+    font-size: 0.8rem;
 }
 .contacto-activo p{
     margin: 0;
